@@ -1,0 +1,244 @@
+/*
+Theme Name: Organic NonProfit Child
+Template: organic_nonprofit
+Author: Child Theme Configurator
+Version: 1.0.1430116087
+Updated: 2015-04-26 23:28:07
+*/
+
+@charset "UTF-8";
+
+
+body {
+	background: #EEEEEE;
+	color: #666666;
+	font-size: 0.9em;
+	font-family: "Quattrocento Sans", arial, sans-serif;
+	line-height: 1.5;
+	margin: 0px;
+	padding: 0px;
+	}
+
+a, a:link {
+	color: #669900;
+	text-decoration: none;
+	}
+	
+a:visited {
+	color: #996699 !important;
+	text-decoration: none;
+	}
+
+a:focus, a:hover, a:active {
+	color: #669900;
+	text-decoration: underline;
+	}
+
+h1 {
+	color: #666666;
+	font-size: 2.3em;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-style: italic;
+	font-weight: normal;
+	text-transform: none;
+	line-height: 1.4;
+	margin: 2px 0px 2px 0px;
+	padding: 0px 0px 6px 0px;
+	}
+	
+h2 {
+	color: #666666;
+	font-size: 1.71em;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-style: italic;
+	font-weight: normal;
+	text-transform: none;
+	line-height: 1.4;
+	margin: 5px 0px 5px 0px;
+	padding: 0px 0px 2px 0px;
+	}
+h3 {
+	color: #666666;
+	font-size: 1.57em;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-style: italic;
+	font-weight: normal;
+	text-transform: none;
+	text-align: left;
+	line-height: 1.4;
+	margin: 2px 0px 5px 0px;
+	padding: 2px 0px 2px 0px;
+	}
+h4 {
+	color: #666666;
+	font-size: 1.43em;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-style: italic;
+	font-weight: normal;
+	line-height: 1.4;
+	margin: 2px 0px 5px 0px;
+	padding: 2px 0px 5px 0px;
+	}
+h5 {
+	color: #666666;
+	font-size: 1.29em;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-transform: none;
+	line-height: 1.4;
+	margin: 2px 0px 5px 0px;
+	padding: 2px 0px 2px 0px;
+	}
+h6 {
+	color: #666666;
+	font-size: 1em;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-transform: none;
+	line-height: 1.4;
+	margin: 2px 0px 8px 0px;
+	padding: 2px 0px 2px 0px;
+	border-bottom: 1px dotted #CCCCCC;
+	}
+
+.headline {
+	font-size: 2.3em;
+	font-weight: 700;
+	line-height: 1.2;
+	text-transform: none;
+	letter-spacing: -1.8px;
+	margin-top: 0px;
+	padding-top: 0px;
+	}
+
+#navigation {
+	float: left;
+	background: #99CC00;
+	color: #666666;
+	position: relative;
+	width: 100%;
+	height: auto;
+	top: 0px;
+	}
+
+#custom-header {
+	display: block;
+	margin-bottom: 0px;
+	padding: 0px;
+	font-size: 0;
+	text-indent: -999em;
+	line-height: 0;
+	overflow: hidden;
+	z-index: 8;
+	}
+
+.row .two 		{ width: 21.5%; }
+.row .three 	{ width: 0%; }
+.row .four 		{ width: 25.6%; }
+.row .eight 	{ width: 70%; }
+.row .nine 		{ width: 100%; }
+
+.wp-caption img {
+	padding: 0px;
+	}
+
+.sidebar {
+	margin: 0px;
+	padding: 15px 15px 15px 15px;
+	border-left: 1px dotted #DDDDDD;
+	}
+
+.widget li {
+	display: block;
+	margin: 6px 0px 0px 0px;
+	padding: 6px 0px 0px 0px;
+	border-top: 1px dotted #CCCCCC;
+	}
+
+	}
+.widget li li:first-child {
+	margin-top: 6px;
+	padding-top: 6px;
+	border-top: 1px dotted #CCCCCC;
+	}
+.widget li:last-child {
+	padding-bottom: 6px;
+	border-bottom: 1px dotted #CCCCCC;
+	}
+
+
+table {
+	background: #FFFFFF;
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+	width: 100%;
+	margin: 5px 0px;
+	padding: 0px;
+	border-collapse: collapse;
+	}
+.widget table {
+	margin: 0px;
+	}
+table thead,
+table tfoot {
+	border: 0px solid #E4E4E4;
+	}
+table thead th,
+table tfoot td {
+	border: none;
+	}
+table th {
+	background: #EEEEEE;
+	font-size: 1.2em;
+	text-align: center;
+	margin: 0px;
+	padding: 8px 0px;
+	}
+table td {
+	padding: 5px 5px 5px 0px;
+	margin: 0px;
+	}
+
+.feature-img img {
+	max-width: 100%;
+	}
+
+img {
+	max-width: inherit;
+	}
+
+.wp-caption {
+	background: #F9F9F9;
+	max-width: 100%;
+	text-align: center;
+	padding: 3px 0px 6px 0px;
+	margin-bottom: 12px;
+	border: 1px solid #DDDDDD;
+	}
+.wp-caption img {
+	max-width: 100%;
+	margin: 0px auto 0px;
+	padding: 0%;
+	}
+.wp-caption p.wp-caption-text {
+	display: inline;
+	font-size: 0.7em;
+	line-height: 1.6;
+	margin: 0px;
+	padding: 0px 3%;
+	}
+
+#footerbg {
+	background: #222222;
+	}
+
+.footerleft {
+	float: left;
+	line-height: 12px;
+	}
+.footertop {
+	font-size: 12px;
+	color: #666666;
+	font-weight: normal;
+	margin: 0px;
+	padding: 16px 0px 0px 0px;
+	}
