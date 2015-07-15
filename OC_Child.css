@@ -201,9 +201,12 @@ table td {
 .feature-img img {
 	max-width: 100%;
 	}
+td img {
+	max-width: inherit;
+	}
 
 img {
-	max-width: inherit;
+	max-width: 100%;
 	}
 
 .wp-caption {
