@@ -134,9 +134,10 @@ h6 {
 
 .row .two 		{ width: 21.5%; }
 .row .three 	{ width: 0%; }
-.row .four 		{ width: 25.6%; }
-.row .eight 	{ width: 70%; }
+.row .four 		{ width: 27.37%; }
+.row .eight 	{ width: 70.2%; }
 .row .nine 		{ width: 100%; }
+.four.columns	{ margin-left: 0%}
 
 .wp-caption img {
 	padding: 0px;
@@ -244,4 +245,14 @@ img {
 	font-weight: normal;
 	margin: 0px;
 	padding: 16px 0px 0px 0px;
+	}
+
+.gear-bullet ul li {
+	font-weight: bolder;
+	font-style: italic;
+	list-style-type: none;
+	background: url(http://www.onecommunityglobal.org/wp-content/uploads/2011/06/gear-bullet-point-e1437011295575.jpg) no-repeat;
+	margin: 0px;
+	padding: 7px 0px 5px 40px;
+	vertical-align: middle;
 	}
