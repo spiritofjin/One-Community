@@ -141,6 +141,7 @@ h6 {
 
 .wp-caption img {
 	padding: 0px;
+	max-width: 98%;
 	}
 
 .sidebar {
