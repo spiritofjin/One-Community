@@ -246,13 +246,21 @@ img {
 	margin: 0px;
 	padding: 16px 0px 0px 0px;
 	}
+.gear-bullet ul {
+	margin: 0px;
+	}
 
 .gear-bullet ul li {
-	font-weight: bolder;
+	color: #666666;
+	font-size: 1em;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-transform: none;
+	line-height: 1.7;
 	font-style: italic;
 	list-style-type: none;
 	background: url(http://www.onecommunityglobal.org/wp-content/uploads/2011/06/gear-bullet-point-e1437011295575.jpg) no-repeat;
 	margin: 0px;
-	padding: 7px 0px 5px 40px;
+	padding: 7px 0px 0px 40px;
 	vertical-align: middle;
 	}
