@@ -265,3 +265,21 @@ img {
 	padding: 7px 0px 0px 40px;
 	vertical-align: middle;
 	}
+
+.gear-bullet-large ul {
+	margin: 0px;
+	}
+
+.gear-bullet-large ul li {
+	color: #666666;
+	font-size: 1.2em;
+	font-family: Arial, Helvetica, sans-serif;
+	text-transform: none;
+	line-height: 3.2;
+	list-style-type: none;
+	background: url(http://www.onecommunityglobal.org/wp-content/uploads/2012/10/keeping-it-all-running_bord.jpg) no-repeat;
+	margin: 0px;
+	padding: 0px 0px 0px 60px;
+	vertical-align: middle;
+	}
+
