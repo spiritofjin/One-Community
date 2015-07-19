@@ -177,6 +177,7 @@ table {
 	padding: 0px;
 	border-collapse: collapse;
 	}
+
 .widget table {
 	margin: 0px;
 	}
@@ -247,6 +248,7 @@ img {
 	margin: 0px;
 	padding: 16px 0px 0px 0px;
 	}
+/* use <div class="gear-bullet"> unordered list in between </div> for gear icons. Use "gear-bullet-large" for the larger gear icon with 2px border */
 .gear-bullet ul {
 	margin: 0px;
 	}
@@ -282,4 +284,17 @@ img {
 	padding: 0px 0px 0px 70px;
 	vertical-align: middle;
 	}
+
+/* Mobile CSS Codes */
+
+@media screen and (max-width: 767px) {
+	}
+	table {
+		overflow-x: auto;
+		display: block;
+	}
+	ol li {
+		margin: 0px;
+	}
+}
 
