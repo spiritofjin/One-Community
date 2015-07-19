@@ -139,11 +139,6 @@ h6 {
 .row .nine 		{ width: 100%; }
 .four.columns	{ margin-left: 0%}
 
-.wp-caption img {
-	padding: 0px;
-	max-width: 98%;
-	}
-
 .sidebar {
 	margin: 0px;
 	padding: 15px 15px 15px 15px;
@@ -176,6 +171,7 @@ table {
 	margin: 5px 0px;
 	padding: 0px;
 	border-collapse: collapse;
+	border: 0px;
 	}
 
 .widget table {
@@ -197,7 +193,7 @@ table th {
 	padding: 8px 0px;
 	}
 table td {
-	padding: 5px 5px 5px 0px;
+	padding: 5px;
 	margin: 0px;
 	}
 
@@ -214,7 +210,7 @@ img {
 
 .wp-caption {
 	background: #F9F9F9;
-	max-width: 100%;
+	max-width: 99%;
 	text-align: center;
 	padding: 3px 0px 6px 0px;
 	margin-bottom: 12px;
