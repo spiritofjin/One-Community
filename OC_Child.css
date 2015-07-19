@@ -163,6 +163,9 @@ h6 {
 	border-bottom: 1px dotted #CCCCCC;
 	}
 
+.menu li {
+	white-space: normal;
+	}
 
 table {
 	background: #FFFFFF;
