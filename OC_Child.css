@@ -176,6 +176,11 @@ table {
 	border-collapse: collapse;
 	border: 0px;
 	}
+table.aligncenter tbody {
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+  }
 
 .widget table {
 	margin: 0px;
@@ -198,6 +203,10 @@ table th {
 table td {
 	padding: 5px;
 	margin: 0px;
+	}
+
+.diy-img img {
+	width: 45%;
 	}
 
 .feature-img img {
