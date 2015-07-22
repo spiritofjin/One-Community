@@ -36,7 +36,7 @@ a:focus, a:hover, a:active {
 
 h1 {
 	color: #666666;
-	font-size: 2.3em;
+	font-size: 2.2em;
 	font-family: Georgia, "Times New Roman", Times, serif;
 	font-style: italic;
 	font-weight: normal;
@@ -205,10 +205,6 @@ table td {
 	margin: 0px;
 	}
 
-.diy-img img {
-	width: 45%;
-	}
-
 .feature-img img {
 	max-width: 100%;
 	}
@@ -218,6 +214,10 @@ td img {
 
 img {
 	max-width: 100%;
+	}
+
+img.alignnone {
+	margin: 0px;
 	}
 
 .wp-caption {
@@ -291,6 +291,19 @@ img {
 	margin: 15px 0px 15px 0px;
 	padding: 0px 0px 0px 70px;
 	vertical-align: middle;
+	}
+
+/*Shortcoder CSS Codes*/
+.diy-img img {
+	width: 45%;
+	}
+
+.oshub-icons {
+	margin-bottom: 20px;
+	}
+
+.oshub-icons img {
+	margin: 0px 4px;
 	}
 
 /* Mobile CSS Codes */
