@@ -220,6 +220,14 @@ img.alignnone {
 	margin: 0px;
 	}
 
+.img33 {
+    width: 33%;
+}
+
+.img50 {
+    width: 50%;
+}
+
 .wp-caption {
 	background: #F9F9F9;
 	max-width: 99%;
