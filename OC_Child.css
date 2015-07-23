@@ -238,7 +238,7 @@ img.alignnone {
 	font-size: 0.7em;
 	line-height: 1.6;
 	margin: 0px;
-	padding: 0px 3%;
+	padding: 0px;
 	}
 
 #footerbg {
@@ -305,6 +305,10 @@ img.alignnone {
 .oshub-icons img {
 	margin: 0px 4px;
 	}
+/* care-share-play img CSS code*/
+#table-caption-img {
+  width: 100% !important;
+}
 
 /* Mobile CSS Codes */
 
